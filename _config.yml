@@ -1,0 +1,40 @@
+# Jekyll
+# title: Your awesome title
+# email: your-email@example.com
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+# twitter_username: jekyllrb
+# github_username:  jekyll
+layouts_dir: ./theme/_layouts
+includes_dir: ./theme/_includes
+exclude: ['README.md']
+permalink: /:title/
+
+# Build settings
+# markdown: kramdown
+# theme: minima
+# plugins:
+#   - jekyll-feed
+
+baseurl:
+color_theme: blue # Available themes: blue (default), green, purple, red and yellow
+header:
+  logo:
+    text: Climax
+    image:
+  nav:
+    - item_name: Docs
+      item_url: 'docs'
+    - item_name: Releases
+      item_url: 'releases'
+footer:
+  social_list:
+    - network_name: github
+      profile_url: 'https://github.com/climaxjs/climax'
+
+# SASS
+sass:
+  sass_dir: ./theme/_sass
+  style: :compressed
