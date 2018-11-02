@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Climax
-description: Develop, build & distribute cross-platform CLI apps with NodeJS.
+description: Build cross-platform CLI clients with NodeJS.
 buttons:
     - content: 'Get Started'
       icon: 'arrow-right'
