@@ -36,10 +36,10 @@ In order to understand the full process, we will walk you through 3 steps:
 
 ## Installation
 
-The easiest way to generate a Climax application is to install the [Climax CLI](https://github.com/climaxjs/climax-cli):
+The easiest way to generate a Climax application is to install the [Climax CLI](https://github.com/climax/core):
 
 ```
-npm install -g climax-cli
+npm install -g @climax/cli
 climax new
 ```
 

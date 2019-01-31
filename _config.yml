@@ -32,7 +32,7 @@ header:
 footer:
   social_list:
     - network_name: github
-      profile_url: 'https://github.com/climaxjs/climax'
+      profile_url: 'https://github.com/climax/core'
 
 # SASS
 sass:
